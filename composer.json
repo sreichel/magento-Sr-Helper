@@ -1,0 +1,13 @@
+{
+    "name": "sr/sr-helper",
+    "type": "magento-module",
+    "description": "Module with reusable code snippets",
+    "homepage": "https://github.com/sreichel/magento-Sr-Helper",
+    "authors": [
+        {
+            "name": "Sven Reichel",
+            "email": "github-sr@hotmail.com",
+            "role": "Author/Maintainer"
+        }
+    ]
+}

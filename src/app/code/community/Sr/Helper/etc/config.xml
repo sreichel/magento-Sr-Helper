@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Sr_Helper>
+            <version>0.0.1</version>
+        </Sr_Helper>
+    </modules>
+    <global>
+        <helpers>
+            <sr_helper>
+                <class>Sr_Helper_Helper</class>
+            </sr_helper>
+        </helpers>
+        <models>
+            <sr_helper>
+                <class>Sr_Helper_Model</class>
+            </sr_helper>
+        </models>
+    </global>
+</config>
