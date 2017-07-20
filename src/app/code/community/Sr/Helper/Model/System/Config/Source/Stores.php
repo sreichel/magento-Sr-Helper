@@ -1,16 +1,14 @@
 <?php
 /**
- * Customer Group Redirect Source Store Model
- *
- * @author      Sven Reichel <s.reichel@maxxcount.de>
- * @category    Mx
- * @package     Mx_CustomerGroupRedirect
+ * @category    Sr
+ * @package     Sr_Helper
+ * @author      Sven Reichel <github-sr@hotmail.com>
  */
 
 /**
  * System config
  */
-class Mx_CustomerGroupRedirect_Model_System_Config_Source_Store
+class Sr_Helper_Model_System_Config_Source_Stores
 {
     /** @var $_options array of options */
     protected $_options;
