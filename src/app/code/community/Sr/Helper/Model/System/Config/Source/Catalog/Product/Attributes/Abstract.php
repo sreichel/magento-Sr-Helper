@@ -49,7 +49,7 @@ abstract class Sr_Helper_Model_System_Config_Source_Catalog_Product_Attributes_A
             $this->_options = array();
             foreach ($options as $option) {
                 $this->_options[] = array(
-                    'label' => $option->getFrontendLabel() ? $option->getFrontendLabel() : $value,
+                    'label' => $option->getFrontendLabel() ? $option->getFrontendLabel() : $option->getAttributeCode(),
                     'value' => $option->getAttributeCode()
                 );
             }
